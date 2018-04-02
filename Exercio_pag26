@@ -1,0 +1,37 @@
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class EXERCICIO 4 {
+
+   
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in); 
+	  int indice1,x;	
+
+    System.out.println("Digite uma String: ");
+        String string_palavra = input.next();
+      	 x = string_palavra.length();
+
+        
+	if(x>=10){
+		 System.out.println("String Original = " + palavra);
+		 System.out.println("A palavra digitada tem " + string_palavra.length() + " caracteres.");
+		 	indice1 = string_palavra.charAt(0);
+		 System.out.println("O caractere da posição [0] é: " + (char)indice1);
+		  	indice1 = string_palavra.charAt(0);
+		 System.out.println("O caractere da posição [10] é: " + (char)indice1);
+      		
+	}else{
+
+	
+	System.out.println("String digitada possui X caracter");
+
+	}
+    
+      
+      
+      
+    }
+    
+}
